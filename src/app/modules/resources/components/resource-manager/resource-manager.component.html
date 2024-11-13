@@ -1,0 +1,11 @@
+<div class="resources">
+  <h2>Recursos</h2>
+  <ul>
+    <li>Agua: {{ resources.water }}</li>
+    <li>Comida: {{ resources.food }}</li>
+    <li>Filtros de Aire: {{ resources.airFilters }}</li>
+  </ul>
+  <button (click)="useResource('water')">Usar Agua</button>
+  <button (click)="useResource('food')">Usar Comida</button>
+  <button (click)="useResource('airFilters')">Usar Filtro de Aire</button>
+</div>
